@@ -1,0 +1,11 @@
+项目名称：Ndev-Pig
+开发工具：Idea + Mysql
+项目描述：本项目是基于Spring Cloud和Vue前后台分离的用于管理其他项目的平台，实现了单点登录，用户管理，菜单管理，角色管理，操作日志，服务监控，数据采集等功能；架构上是用的Spring Cloud的架构方案，有common公共模块，config配置中心，eureka服务注册和发现，gateway网关和其他微服务
+项目职责：微服务pig-daemon-service的开发
+项目实现：pig-daemon-service微服务用的是Elastic-Job-Lite框架实现的定时采集员工信息的任务，并用elastic-job-console实现定时任务的界面显示，且嵌入到Ndev-Pig的前台界面方便查看
+
+项目名称：Ndev-Plugin Assistant
+开发工具：Idea
+项目描述：本项目是Idea插件，用于在idea中展示其他插件的信息，包括插件简单介绍，详细介绍链接，新版本号和旧版本号等信息，并提供了批量/单独安装和卸载其他插件的功能
+项目职责：整体开发
+项目实现：
